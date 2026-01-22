@@ -40,7 +40,7 @@ Cleaned Output:
 
 User admin ([PHONE_MASKED]) login failed from [IPV4_MASKED]. Email: [EMAIL_MASKED]
 
-⚠️ Disclaimer
+#⚠️ Disclaimer
 This tool is intended for legal security research and authorized system administration purposes only.
 
 Created by j32ryc for the AI & Cybersecurity Portfolio.
