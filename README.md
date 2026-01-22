@@ -18,6 +18,7 @@
 ## 🛠️ Installation & Usage
 
 ### Option 1: Using the Standalone Binary (Recommended for Targets)
+
 Just drop the binary onto any Linux machine and run it.
 
 ```bash
@@ -26,21 +27,27 @@ chmod +x dist/sentinel_v2
 
 # Run sanitization
 ./dist/sentinel_v2 -i target.log -o cleaned.log
-Option 2: Running from Source (For Development)
+```
+
+### Option 2: Running from Source (For Development)
+
 Requires Python 3.x.
 
-Bash
+```bash
 python3 sentinel_v2.py -i target.log -o cleaned.log
-📝 Example Output
-Raw Input:
+```
 
-User admin (13800138000) login failed from 192.168.1.5. Email: alert@corp.com
+## 📝 Example Output
 
-Cleaned Output:
+**Raw Input:**
+> User admin (13800138000) login failed from 192.168.1.5. Email: alert@corp.com
 
-User admin ([PHONE_MASKED]) login failed from [IPV4_MASKED]. Email: [EMAIL_MASKED]
+**Cleaned Output:**
+> User admin ([PHONE_MASKED]) login failed from [IPV4_MASKED]. Email: [EMAIL_MASKED]
 
-⚠️ Disclaimer
+## ⚠️ Disclaimer
+
 This tool is intended for legal security research and authorized system administration purposes only.
 
-Created by j32ryc for the AI & Cybersecurity Portfolio. 
+---
+*Created by [j32ryc](https://github.com/j32ryc) for the AI & Cybersecurity Portfolio.*
